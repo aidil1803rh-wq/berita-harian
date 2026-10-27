@@ -54,27 +54,54 @@ def token(judul):
     return {w for w in re.findall(r"[a-z0-9]+", judul.lower()) if w not in STOP and len(w) > 2}
 
 
+# Portal yang feed RSS-nya sering gagal/kosong dari server GitHub: cadangan lewat pencarian Google News
+DOMAIN = {"Kompas": "kompas.com", "Tribunnews": "tribunnews.com", "Tempo": "tempo.co", "Antara": "antaranews.com",
+          "Detik": "detik.com", "Padang Ekspres": "padek.jawapos.com", "Tribun Padang": "padang.tribunnews.com"}
+
+
+def baca(url, nama, bagian, batas_waktu, gn=False):
+    r = requests.get(url, headers={"User-Agent": UA}, timeout=20)
+    r.raise_for_status()
+    feed = feedparser.parse(r.content)
+    hasil = []
+    for e in feed.entries[:40]:
+        w = waktu(e)
+        if not e.get("link") or not e.get("title"):
+            continue
+        if w and w < batas_waktu:
+            continue
+        asal = nama
+        if nama == "Google News" or gn:
+            asal = ((e.get("source") or {}).get("title") or nama).strip()
+        hasil.append({"judul": bersih(e.title, "Google News" if (nama == "Google News" or gn) else nama),
+                      "link": e.link, "sumber": asal, "bagian": bagian, "gn": "news.google.com" in e.link,
+                      "waktu": (w or datetime.now(timezone.utc)).isoformat()})
+    return hasil, len(feed.entries)
+
+
 def ambil(nama, bagian, urls, batas_waktu, status):
+    kunci = f"{nama} ({bagian})"
+    catatan = "gagal: tidak ada alamat feed yang bisa dibuka"
     for url in urls:
         try:
-            r = requests.get(url, headers={"User-Agent": UA}, timeout=20)
-            r.raise_for_status()
-            feed = feedparser.parse(r.content)
-            if not feed.entries:
-                continue
-            hasil = []
-            for e in feed.entries[:40]:
-                w = waktu(e)
-                if not e.get("link") or not e.get("title"):
-                    continue
-                if w and w < batas_waktu:
-                    continue
-                hasil.append({"judul": bersih(e.title, nama), "link": e.link, "sumber": nama,
-                              "bagian": bagian, "waktu": (w or datetime.now(timezone.utc)).isoformat()})
-            status[f"{nama} ({bagian})"] = f"ok, {len(hasil)} berita"
-            return hasil
+            hasil, total = baca(url, nama, bagian, batas_waktu)
+            if hasil:
+                status[kunci] = f"ok, {len(hasil)} berita"
+                return hasil
+            catatan = "kosong: feed terbaca tapi tidak ada berita baru" if total else "kosong: feed tidak terbaca"
         except Exception as ex:  # satu sumber gagal tidak boleh menghentikan yang lain
-            status[f"{nama} ({bagian})"] = f"gagal: {type(ex).__name__}"
+            catatan = f"gagal: {type(ex).__name__}"
+    # cadangan: cari berita situs itu lewat Google News
+    if nama in DOMAIN and bagian != "internasional":
+        try:
+            q = requests.utils.quote(f"site:{DOMAIN[nama]} when:1d")
+            hasil, _ = baca(f"https://news.google.com/rss/search?q={q}&{GN}", nama, bagian, batas_waktu, gn=True)
+            if hasil:
+                status[kunci] = f"ok via Google News, {len(hasil)} berita (feed asli: {catatan})"
+                return hasil
+        except Exception as ex:
+            catatan += f"; cadangan gagal: {type(ex).__name__}"
+    status[kunci] = catatan
     return []
 
 
@@ -93,7 +120,7 @@ def gabung(items):
     out = []
     for g in grup:
         sumber = {i["sumber"] for i in g["items"]}
-        utama = max(g["items"], key=lambda i: i["waktu"])
+        utama = max(g["items"], key=lambda i: (not i.get("gn"), i["waktu"]))  # utamakan link asli, bukan pengalihan Google
         out.append({**utama, "skor": len(sumber), "sumber": ", ".join(sorted(sumber))[:60]})
     return sorted(out, key=lambda x: (x["skor"], x["waktu"]), reverse=True)
 
@@ -150,7 +177,7 @@ def main():
     }
     Path("docs").mkdir(exist_ok=True)
     Path("docs/berita.json").write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
-    gagal = [k for k, v in status.items() if v.startswith("gagal") or v.endswith("0 berita")]
+    gagal = [k for k, v in status.items() if not v.startswith("ok")]
     print(f"Selesai. {sum(len(v) for v in data['bagian'].values())} berita. Bermasalah: {gagal or 'tidak ada'}")
     for k, v in status.items():
         print(" -", k, ":", v)
