@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Top Isu Harian</title>
+<style>
+:root{--bg:#f3f5f4;--card:#fff;--ink:#16211d;--mut:#5d6b66;--line:#d9e0dd;--acc:#fe5000;--accink:#fff}
+@media(prefers-color-scheme:dark){:root{--bg:#0f1513;--card:#18211e;--ink:#e8efec;--mut:#9aa9a3;--line:#2b3733}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",sans-serif;padding:env(safe-area-inset-top,0) 0 40px}
+main{max-width:760px;margin:0 auto;padding:20px 16px}
+h1{font:700 1.5rem/1.2 Georgia,"Times New Roman",serif;margin:0 0 4px}
+.tgl{color:var(--mut);margin:0 0 18px}
+h2{font-size:1.05rem;margin:22px 0 8px}
+ul{list-style:none;margin:0;padding:0;background:var(--card);border:1px solid var(--line);border-radius:8px}
+li{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border-top:1px solid var(--line)}
+li:first-child{border-top:0}
+li div{flex:1;min-width:0}
+li a{color:var(--ink);text-decoration:none;font-weight:600}
+li a:hover{text-decoration:underline}
+small{display:block;color:var(--mut)}
+.x{border:0;background:none;color:var(--mut);font-size:1.3rem;line-height:1;cursor:pointer;padding:2px 6px;border-radius:4px}
+.x:hover{color:var(--acc)}
+button:focus-visible,textarea:focus-visible,a:focus-visible{outline:3px solid var(--acc);outline-offset:2px}
+textarea{width:100%;min-height:260px;margin-top:8px;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--card);color:var(--ink);font:14px/1.5 ui-monospace,Menlo,Consolas,monospace}
+.bar{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.btn{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:10px 16px;border-radius:8px;font:600 .95rem system-ui;cursor:pointer}
+.btn.p{background:var(--acc);border-color:var(--acc);color:var(--accink)}
+.kosong{padding:14px 12px;color:var(--mut)}
+details{margin-top:22px;color:var(--mut);font-size:.9rem}
+.pesan{min-height:1.4em;margin:8px 0 0;color:var(--mut)}
+</style>
+</head>
+<body>
+<main>
+<h1>Top isu Sumbar, nasional, dan internasional</h1>
+<p class="tgl" id="tgl">Memuat berita…</p>
+<div id="daftar"></div>
+<h2>Teks siap kirim</h2>
+<textarea id="teks" aria-label="Teks rangkuman" spellcheck="false"></textarea>
+<div class="bar">
+  <button class="btn p" id="wa">Kirim ke WhatsApp</button>
+  <button class="btn" id="salin">Salin teks</button>
+  <button class="btn" id="reset">Kembalikan semua berita</button>
+</div>
+<p class="pesan" id="pesan" role="status"></p>
+<details><summary>Status sumber berita</summary><ul id="status"></ul></details>
+</main>
+<script>
+const BAGIAN=[["sumbar","📌 ISU SUMBAR"],["nasional","🇮🇩 NASIONAL"],["internasional","🌍 INTERNASIONAL"]];
+const PENUTUP="Bidang Komdigi DPW PKS Sumbar (AR)\nSilahkan dishare untuk kepentingan struktur";
+let data=null,aktif={};
+const $=id=>document.getElementById(id);
+const tglID=d=>new Date(d).toLocaleDateString("id-ID",{day:"numeric",month:"long",year:"numeric",timeZone:"Asia/Jakarta"});
+
+function susunTeks(){
+  const judul=`TOP ISU SUMBAR, NASIONAL DAN INTERNASIONAL, ${tglID(data.dibuat).toUpperCase()}`;
+  const blok=BAGIAN.map(([k,label])=>{
+    const baris=aktif[k].map((b,i)=>`${i+1}. ${b.judul} ${b.link} Sumber : ${b.sumber}`);
+    return baris.length?`${label}\n\n${baris.join("\n")}`:"";
+  }).filter(Boolean);
+  $("teks").value=[judul,...blok,PENUTUP].join("\n\n");
+}
+function gambar(){
+  $("daftar").innerHTML="";
+  BAGIAN.forEach(([k,label])=>{
+    const h=document.createElement("h2");h.textContent=label;
+    const ul=document.createElement("ul");
+    if(!aktif[k].length){ul.innerHTML='<li class="kosong">Tidak ada berita. Cek status sumber di bawah.</li>'}
+    aktif[k].forEach((b,i)=>{
+      const li=document.createElement("li");
+      const d=document.createElement("div");
+      const a=document.createElement("a");a.href=b.link;a.target="_blank";a.rel="noopener";a.textContent=b.judul;
+      const s=document.createElement("small");s.textContent=b.sumber;
+      d.append(a,s);
+      const x=document.createElement("button");x.className="x";x.textContent="×";
+      x.setAttribute("aria-label","Hapus berita: "+b.judul);
+      x.onclick=()=>{aktif[k].splice(i,1);gambar();susunTeks()};
+      li.append(d,x);ul.append(li);
+    });
+    $("daftar").append(h,ul);
+  });
+}
+function mulai(){
+  aktif=JSON.parse(JSON.stringify(data.bagian));
+  $("tgl").textContent=`${tglID(data.dibuat)} · diperbarui ${new Date(data.dibuat).toLocaleTimeString("id-ID",{hour:"2-digit",minute:"2-digit",timeZone:"Asia/Jakarta"})} WIB`;
+  $("status").innerHTML="";
+  Object.entries(data.status).forEach(([n,v])=>{const li=document.createElement("li");li.textContent=`${n}: ${v}`;$("status").append(li)});
+  gambar();susunTeks();
+}
+function pesan(t){$("pesan").textContent=t;setTimeout(()=>$("pesan").textContent="",3000)}
+$("salin").onclick=async()=>{
+  try{await navigator.clipboard.writeText($("teks").value);pesan("Teks disalin. Tempel di WhatsApp.")}
+  catch{$("teks").select();pesan("Pilih teks lalu salin manual.")}
+};
+$("wa").onclick=()=>window.open("https://wa.me/?text="+encodeURIComponent($("teks").value),"_blank","noopener");
+$("reset").onclick=mulai;
+fetch("berita.json?t="+Date.now()).then(r=>{if(!r.ok)throw 0;return r.json()}).then(j=>{data=j;mulai()})
+ .catch(()=>{$("tgl").textContent="Belum ada data. Di GitHub, buka Actions, pilih “Rangkuman berita harian”, lalu Run workflow."});
+</script>
+</body>
+</html>
