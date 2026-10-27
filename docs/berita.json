@@ -1,5 +1,5 @@
 {
- "dibuat": "2026-10-27T10:22+07:00",
+ "dibuat": "2026-10-27T10:26+07:00",
  "tanggal": "27 October 2026",
  "bagian": {
   "sumbar": [
@@ -29,16 +29,16 @@
     "sumber": "Padang Ekspres, Tribunpadang.com"
    },
    {
-    "judul": "Cuaca Sumbar 27 Oktober 2026: Waspada Hujan Lebat pada Malam Hari di Dharmasraya",
-    "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdkMwVEp5UFdSNlpuQklzMUllZ3ZMZElOOUI1ZXg5enhQMV9ObHdxZGNVdWxCYTlwNHIwRTBhMXAzTlhwakNLdUhDbDNjYkp1UTFzV3BjY1hyR1gtSmZqRFZXN0twdjMwbGNLV2RyYm12U2Vjd05zQUpGNkswc0thdVZaSzJsZ01MY0dEUW5XQ1lVbmE2XzRXcThGTnNOeC1CTU0xRHE0U0RmY2dzdERzbFdISTNlXzhYMWFwVHR2ME9lYVBqYmxDSHpMWQ?oc=5",
-    "sumber": "Tribunpadang.com"
+    "judul": "Wali Kota Payakumbuh Lantik 114 Pejabat, Tekankan Kejujuran, Loyalitas, dan Profesionalisme",
+    "link": "https://sumbarkita.id/wali-kota-payakumbuh-lantik-114-pejabat-tekankan-kejujuran-loyalitas-dan-profesionalisme/",
+    "sumber": "Sumbarkita"
    }
   ],
   "nasional": [
    {
-    "judul": "Setelah Dua Anak Menteri Haji Mundur dari Staf Ahli Menteri",
-    "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNUGt0bTcyZ2k1Vm1kT3d5Wk1UUTd4WUlXSUJ1b0FzbTUxY3JJS0lIWVZyMGhJRE5hQ3hTMmJ3MWpMSEJnQ2ZwQk5GT0Fqc3dEeGtuQnhwc0I5ZGxlUGctZE9PWFpDSzhrWVlZZVdwY3Bpa2MtSXZQS1otdnhtOURGQWk2bnNhOVo1YmlDTTJQRU92ZTVEWnM4Vld4R3dSelh2QllUcUFn?oc=5",
-    "sumber": "Kompas.com, Tempo.co"
+    "judul": "Dua anak Menhaj mundur dari posisi tenaga ahli Kemenhaj",
+    "link": "https://www.antaranews.com/berita/5813855/dua-anak-menhaj-mundur-dari-posisi-tenaga-ahli-kemenhaj",
+    "sumber": "Antara, Kompas.com, Tempo.co"
    },
    {
     "judul": "Pembunuhan Sadis di Madiun, Korban Dibakar hingga Digiling",
@@ -56,8 +56,8 @@
     "sumber": "Detik, detikNews"
    },
    {
-    "judul": "Kok Bisa McLaren Tunggak Pajak Ratusan Juta Atas Nama Montir?",
-    "link": "https://news.detik.com/berita/d-8725519/kok-bisa-mclaren-tunggak-pajak-ratusan-juta-atas-nama-montir",
+    "judul": "Sahroni Setuju Kerugian Negara Bukan Korupsi Dikaji: Beda dengan Korupsi Pejabat",
+    "link": "https://news.detik.com/berita/d-8725515/sahroni-setuju-kerugian-negara-bukan-korupsi-dikaji-beda-dengan-korupsi-pejabat",
     "sumber": "Detik, detikNews"
    }
   ],
@@ -103,8 +103,8 @@
   "Sipp Sumbar (sumbar)": "ok, 3 berita",
   "Babarito (sumbar)": "kosong: feed terbaca tapi tidak ada berita baru",
   "Antara Sumbar (sumbar)": "ok, 20 berita",
-  "Padang Ekspres (sumbar)": "ok via Google News, 40 berita (feed asli: gagal: HTTPError)",
-  "Tribun Padang (sumbar)": "ok via Google News, 39 berita (feed asli: kosong: feed tidak terbaca)",
+  "Padang Ekspres (sumbar)": "ok via Google News, 34 berita (feed asli: gagal: HTTPError)",
+  "Tribun Padang (sumbar)": "ok via Google News, 40 berita (feed asli: kosong: feed tidak terbaca)",
   "Sumbarkita (sumbar)": "ok, 10 berita"
  }
 }
