@@ -1,7 +1,9 @@
 name: Rangkuman berita harian
 on:
   schedule:
-    - cron: "30 23 * * *"   # 06.30 WIB
+    - cron: "47 22 * * *"   # 05.47 WIB
+    - cron: "17 23 * * *"   # 06.17 WIB
+    - cron: "47 23 * * *"   # 06.47 WIB
   workflow_dispatch: {}     # tombol "Run workflow" untuk coba manual
 permissions:
   contents: write
