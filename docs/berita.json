@@ -1,5 +1,5 @@
 {
- "dibuat": "2026-11-01T09:18+07:00",
+ "dibuat": "2026-11-01T09:37+07:00",
  "tanggal": "01 November 2026",
  "bagian": {
   "sumbar": [
@@ -29,8 +29,8 @@
     "sumber": "Antara Sumbar, Tribunpadang.com"
    },
    {
-    "judul": "Telantar 8 Tahun di Bogor, Pasangan Asal Padang dan 7 Anaknya Akhirnya Dipulangkan",
-    "link": "https://sumbarkita.id/telantar-8-tahun-di-bogor-pasangan-asal-padang-dan-7-anaknya-akhirnya-dipulangkan/",
+    "judul": "Dian Puspita Fadly Amran Kukuhkan Bunda PAUD Kecamatan se-Kota Padang, Tekankan Wajib Belajar 13 Tahun",
+    "link": "https://sumbarkita.id/dian-puspita-fadly-amran-kukuhkan-bunda-paud-kecamatan-se-kota-padang-tekankan-wajib-belajar-13-tahun/",
     "sumber": "Sumbarkita"
    }
   ],
@@ -63,19 +63,19 @@
   ],
   "internasional": [
    {
-    "judul": "Menang 5-2 atas Udinese, AS Roma tempel Lazio dan Inter Milan",
-    "link": "https://sumbar.antaranews.com/berita/786775/menang-5-2-atas-udinese-as-roma-tempel-lazio-dan-inter-milan",
-    "sumber": "Antara, Antara Sumbar"
+    "judul": "Iran siap berunding dengan AS jika tujuh syarat dipenuhi",
+    "link": "https://www.antaranews.com/berita/5824459/iran-siap-berunding-dengan-as-jika-tujuh-syarat-dipenuhi",
+    "sumber": "Antara"
+   },
+   {
+    "judul": "Rubio: Konflik Ukraina masih jadi salah satu tantangan serius",
+    "link": "https://www.antaranews.com/berita/5824447/rubio-konflik-ukraina-masih-jadi-salah-satu-tantangan-serius",
+    "sumber": "Antara"
    },
    {
     "judul": "Pasar Kripto Kehilangan 100 Miliar Dollar AS Usai Binance Diretas",
     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPUUIyd3hES3F1NFhxTzJEa05oNXV6V0wySEdjakNHbnlnMGFCM2k4MGRpelZQTDB1Nl9TSHVDdm95QWNOTnJ2QTlNbjZzRVFmNWV1NXZQTVdqRjVzcnRsaHhMSVB5WWRxempSakhBZjdTQWFiNzZyVW9PbThoRVJsSmFQdHZhcFI1eUJ6UVlnV0d3UVFVWDJWRkk0V3Z1ZGtvZGhwT0phakxQSGQ1Y1pNbTNNcXVXTGM?oc=5",
     "sumber": "Kompas.com"
-   },
-   {
-    "judul": "Iran sebut sikap AS dalam dialog dengan Teheran berubah",
-    "link": "https://www.antaranews.com/berita/5824391/iran-sebut-sikap-as-dalam-dialog-dengan-teheran-berubah",
-    "sumber": "Antara"
    },
    {
     "judul": "Polda Metro siapkan lima kantong parkir untuk Apel Palestina di Monas",
@@ -103,7 +103,7 @@
   "Sipp Sumbar (sumbar)": "ok, 2 berita",
   "Babarito (sumbar)": "kosong: feed terbaca tapi tidak ada berita baru",
   "Antara Sumbar (sumbar)": "ok, 20 berita",
-  "Padang Ekspres (sumbar)": "ok via Google News, 36 berita (feed asli: gagal: HTTPError)",
+  "Padang Ekspres (sumbar)": "ok via Google News, 31 berita (feed asli: gagal: HTTPError)",
   "Tribun Padang (sumbar)": "ok via Google News, 40 berita (feed asli: kosong: feed tidak terbaca)",
   "Sumbarkita (sumbar)": "ok, 10 berita"
  }
