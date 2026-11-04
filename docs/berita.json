@@ -1,5 +1,5 @@
 {
- "dibuat": "2026-11-04T10:02+07:00",
+ "dibuat": "2026-11-04T10:20+07:00",
  "tanggal": "04 November 2026",
  "bagian": {
   "sumbar": [
@@ -36,6 +36,11 @@
   ],
   "nasional": [
    {
+    "judul": "Polri tetapkan LSP, ASN, dan EH tersangka penyadapan ilegal terhadap Presiden",
+    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPc2xIclp6d2pZTXBaMmdBd3MxYjFvdUJTZUtQa2lZT3R3X2tnN3dvQTMzdTJuVUREY0E3bHYxTEpadFNEenh3VVIxSm9NcG5wY2dQdlBqWGViY3dkUXZqRUJYUEEtS2pNeDZ3ZWNFOFVRQUxDYTM0cml1bnNNS3RtcVZkSUphSUtlbUc4SDJQUjE5SFkyRWFCN1l1bXg3YXJJNlEtaGFhXzI5WEtLdE16WFBUY2JvczhQWkNV?oc=5",
+    "sumber": "ANTARA News, ANTARA News Sulteng, ANTARA News Sumbar"
+   },
+   {
     "judul": "10 Hal tentang Eks Kapolri Jenderal Listyo Sigit Tersangka Penyadapan Presiden",
     "link": "https://news.detik.com/berita/d-8737324/10-hal-tentang-eks-kapolri-jenderal-listyo-sigit-tersangka-penyadapan-presiden",
     "sumber": "Detik, Tempo.co"
@@ -54,23 +59,13 @@
     "judul": "Menko Yusril: Presiden Disadap Itu Masalah Serius bagi Negara",
     "link": "https://news.detik.com/berita/d-8737152/menko-yusril-presiden-disadap-itu-masalah-serius-bagi-negara",
     "sumber": "Detik, Kompas.com"
-   },
-   {
-    "judul": "Jenderal Listyo Sigit Tersangka Penyadapan Prabowo Ditahan di Rutan Mabes Polri",
-    "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPT0NNeGxXTWhRR2VqRTFOZmJjcHBfR1BScTJEYTgtblJtbjduSnZRV0RUTXk0S1VoNUpyQnJxR3kyLWhmblNFVjhjeWVhcXlaeFM3WmowUHRTazNJc05XVEt2MU9TSmZodEFNSVBZN3EwOWJtMFhvMGFncWt1VFRHbHUzREo0N05lLTE0b3NqVjllZ3p2bjJwRmlCSDRkUHY1X0t0YUh5UGNhV3dBQnVQb2x5M3J6V2pWQlpBck1GR3lVMVA3?oc=5",
-    "sumber": "Kompas.com, Tribunnews.com"
    }
   ],
   "internasional": [
    {
-    "judul": "Rupiah pada Rabu pagi menguat jadi Rp18.132 per dolar AS",
-    "link": "https://sumbar.antaranews.com/berita/787411/rupiah-pada-rabu-pagi-menguat-jadi-rp18132-per-dolar-as",
-    "sumber": "Antara, Antara Sumbar"
-   },
-   {
-    "judul": "Rupiah diprediksi melemah seiring indeks dolar dan obligasi AS naik",
-    "link": "https://www.antaranews.com/berita/5830511/rupiah-diprediksi-melemah-seiring-indeks-dolar-dan-obligasi-as-naik",
-    "sumber": "Antara"
+    "judul": "AS ancam deportasi warga asing yang ikut memilih di pemilu sela",
+    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPMnJ6YWY1Vm5UUkVUeWdCaGRXYXZTTjF3Q1lRVnFkdDhHcGNoMC1KNEkxTDhsSm1UT2pZUU9UcGlqNU1KZHVNTUc3aGE5MURvS2doczBlMWZtUk42TzdtTnNKU2NtZjJxUzBOR2VwbzE1SjVick1HcF9aT0FybXh0YkJnbWZlcmkzNF9OQTFiRXgxTTg5N3lCakZYZnhXLVFfVUh3VUI3WTNKZE3SAbABQVVfeXFMT3U4Y1RsLURTYXdvNzZIdV9zOWFneno1Q3pRWk1mU1FVQzhTZjZWUG41alI4Q2NieXdsZjAtNWgtVkNLWURKTWdYZ1REQV9WLTdwZ1pQeXFFRC1GZG96QmtGSjgxZG9fMTd4WFBTVUpGSEZqYWM4ZjZQY3RnTEg5dGVBRTFPVWdiVjg5cXdfYVE5NGZKWTRlSjhvbENweFJsRXczTHI4OVBUQ04tY3NOMDU?oc=5",
+    "sumber": "ANTARA News"
    },
    {
     "judul": "Harga Emas Dunia Menguat, Investor Tunggu Hasil Pemilu Sela AS",
@@ -78,13 +73,18 @@
     "sumber": "Kompas.com"
    },
    {
-    "judul": "AS ancam deportasi warga asing yang ikut memilih di pemilu sela",
-    "link": "https://www.antaranews.com/berita/5830471/as-ancam-deportasi-warga-asing-yang-ikut-memilih-di-pemilu-sela",
-    "sumber": "Antara"
+    "judul": "Rupiah pada Rabu pagi menguat jadi Rp18.132 per dolar AS",
+    "link": "https://sumbar.antaranews.com/berita/787411/rupiah-pada-rabu-pagi-menguat-jadi-rp18132-per-dolar-as",
+    "sumber": "Antara Sumbar"
    },
    {
     "judul": "ITMG Bagikan Dividen Interim 74,2 Juta Dollar AS, Catat Jadwal Pembayarannya",
     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPcTJFWnBFOXBGRlNkTDFENHNrazY3Q01EeUU3T2RXMWtpU3ZQSVRRMHh2QVh0YnZ6UjYwV2MyUzBycHNMUUdSbEhfZzk3S0kzNWJPWnVVQ3loeEdoTENMRjZINklxbVdUNHBVdE91RVZiUXNoLUZuNmJsQkFvSU5IaVpxRC1FUVpGZ2VnbFVfa0VORVVfZ3VwdDJmMDZPOFYzUGFQVzhIekF5VjJBcDliNVl2UEpuZHdCQURUZWxhaDNVUkE?oc=5",
+    "sumber": "Kompas.com"
+   },
+   {
+    "judul": "Dollar AS Menguat, Rupiah Berisiko Tertekan hingga Rp 18.250",
+    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOUHBoZzN6dUlGaDl4Y0t0UDd0THJ2aUJNVHdlTzZPcVFaVnZjQkowVnFhd1A4MElCcnlCQ3dZNUI0V2taQkhXM09CVjBEcHhTQXVWY1RQTGRXWlhTUy1SSWpjbkNYQWFYbDBHaGZRN1ZSTktscEhpaEdjWTBCQmd5YTRQWlVUVzQzZlR1bkFxRElfaHNEWHFmZl9jM05pUWVMRmg5bXJvRWdpazF1dUNr?oc=5",
     "sumber": "Kompas.com"
    }
   ]
@@ -92,7 +92,7 @@
  "status": {
   "Google News (nasional)": "ok, 35 berita",
   "Google News (internasional)": "ok, 26 berita",
-  "Antara (nasional)": "ok, 40 berita",
+  "Antara (nasional)": "ok via Google News, 40 berita (feed asli: gagal: ConnectionError)",
   "Antara (internasional)": "kosong: feed terbaca tapi tidak ada berita baru",
   "Kompas (nasional)": "ok via Google News, 40 berita (feed asli: kosong: feed tidak terbaca)",
   "Tribunnews (nasional)": "ok via Google News, 40 berita (feed asli: kosong: feed tidak terbaca)",
