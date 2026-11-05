@@ -1,5 +1,5 @@
 {
- "dibuat": "2026-11-05T10:32+07:00",
+ "dibuat": "2026-11-05T10:45+07:00",
  "tanggal": "05 November 2026",
  "bagian": {
   "sumbar": [
@@ -36,6 +36,11 @@
   ],
   "nasional": [
    {
+    "judul": "Copot Foto Gibran di Gedung DPRD DIY, Massa Sampaikan Pesan Ini",
+    "link": "https://news.detik.com/berita/d-8739112/copot-foto-gibran-di-gedung-dprd-diy-massa-sampaikan-pesan-ini",
+    "sumber": "Detik, Tempo.co"
+   },
+   {
     "judul": "Hadiri Sidang Roy Suryo di PN Jaktim, Jokowi Ngaku Bawa Ijazah",
     "link": "https://news.detik.com/berita/d-8739064/hadiri-sidang-roy-suryo-di-pn-jaktim-jokowi-ngaku-bawa-ijazah",
     "sumber": "Detik, detikNews"
@@ -46,19 +51,14 @@
     "sumber": "Detik, detikNews"
    },
    {
-    "judul": "Dasco: Ada Pengalihan Isu Penyadapan Ilegal Jadi Dasco Cawapres, Itu Hoax!",
-    "link": "https://news.detik.com/berita/d-8739024/dasco-ada-pengalihan-isu-penyadapan-ilegal-jadi-dasco-cawapres-itu-hoax",
+    "judul": "Helikopter Mi-17 Jatuh Saat Operasi Penanganan Karhutla, 3 Prajurit TNI Gugur",
+    "link": "https://news.detik.com/berita/d-8738955/helikopter-mi-17-jatuh-saat-operasi-penanganan-karhutla-3-prajurit-tni-gugur",
     "sumber": "Detik, detikNews"
    },
    {
     "judul": "Pasukan TNI Dikerahkan ke Jakarta, Kapuspen: Status Kesiagaan Masih Normal",
     "link": "https://news.detik.com/berita/d-8738940/pasukan-tni-dikerahkan-ke-jakarta-kapuspen-status-kesiagaan-masih-normal",
     "sumber": "Detik, detikNews"
-   },
-   {
-    "judul": "Jokowi Dipastikan Hadir Jadi Saksi di Sidang Roy Suryo Hari Ini",
-    "link": "https://news.detik.com/berita/d-8738911/jokowi-dipastikan-hadir-jadi-saksi-di-sidang-roy-suryo-hari-ini",
-    "sumber": "Detik, Kompas.com"
    }
   ],
   "internasional": [
@@ -68,6 +68,11 @@
     "sumber": "Antara, Antara Sumbar"
    },
    {
+    "judul": "IRGC sebut AS tingkatkan kegiatan intelijen di dekat Iran",
+    "link": "https://www.antaranews.com/berita/5833135/irgc-sebut-as-tingkatkan-kegiatan-intelijen-di-dekat-iran",
+    "sumber": "Antara"
+   },
+   {
     "judul": "Blokees Jadi Mitra Strategis Konser Hatsune Miku \"MIKU WITH YOU 2026\" di Tiongkok",
     "link": "https://www.antaranews.com/berita/5833127/blokees-jadi-mitra-strategis-konser-hatsune-miku-miku-with-you-2026-di-tiongkok",
     "sumber": "Antara"
@@ -75,11 +80,6 @@
    {
     "judul": "Rupiah menguat dipengaruhi hasil pemilu paruh waktu AS",
     "link": "https://www.antaranews.com/berita/5833107/rupiah-menguat-dipengaruhi-hasil-pemilu-paruh-waktu-as",
-    "sumber": "Antara"
-   },
-   {
-    "judul": "IHSG menguat seiring hasil pemilu midterm AS pengaruhi prospek global",
-    "link": "https://www.antaranews.com/berita/5833063/ihsg-menguat-seiring-hasil-pemilu-midterm-as-pengaruhi-prospek-global",
     "sumber": "Antara"
    },
    {
@@ -103,7 +103,7 @@
   "Sipp Sumbar (sumbar)": "ok, 4 berita",
   "Babarito (sumbar)": "kosong: feed terbaca tapi tidak ada berita baru",
   "Antara Sumbar (sumbar)": "ok, 20 berita",
-  "Padang Ekspres (sumbar)": "ok via Google News, 32 berita (feed asli: gagal: HTTPError)",
+  "Padang Ekspres (sumbar)": "ok via Google News, 30 berita (feed asli: gagal: HTTPError)",
   "Tribun Padang (sumbar)": "ok via Google News, 40 berita (feed asli: kosong: feed tidak terbaca)",
   "Sumbarkita (sumbar)": "ok, 10 berita"
  }
