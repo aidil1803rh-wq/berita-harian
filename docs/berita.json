@@ -1,5 +1,5 @@
 {
- "dibuat": "2026-11-08T09:33+07:00",
+ "dibuat": "2026-11-08T09:43+07:00",
  "tanggal": "08 November 2026",
  "bagian": {
   "sumbar": [
@@ -48,7 +48,7 @@
    {
     "judul": "Kebakaran di Stasiun Gambir Padam, Tak Ada Perjalanan Kereta yang Terganggu",
     "link": "https://news.detik.com/berita/d-8743121/kebakaran-di-stasiun-gambir-padam-tak-ada-perjalanan-kereta-yang-terganggu",
-    "sumber": "CNN Indonesia, Detik"
+    "sumber": "Detik, detikNews"
    },
    {
     "judul": "3 Pencuri HP di Bogor yang Kabur Pakai Mobil Ditangkap Saat Makan Pecel Lele",
@@ -56,8 +56,8 @@
     "sumber": "Detik, detikNews"
    },
    {
-    "judul": "Gempa M5,7 guncang Jepang tengah, tidak ada peringatan tsunami",
-    "link": "https://www.antaranews.com/berita/5839359/gempa-m57-guncang-jepang-tengah-tidak-ada-peringatan-tsunami",
+    "judul": "Mengenal istilah \"gamers thumb\" yang sering muncul saat main game",
+    "link": "https://www.antaranews.com/berita/5839379/mengenal-istilah-gamers-thumb-yang-sering-muncul-saat-main-game",
     "sumber": "Antara"
    }
   ],
@@ -91,7 +91,7 @@
  },
  "status": {
   "Google News (nasional)": "ok, 35 berita",
-  "Google News (internasional)": "ok, 26 berita",
+  "Google News (internasional)": "ok, 25 berita",
   "Antara (nasional)": "ok, 40 berita",
   "Antara (internasional)": "kosong: feed terbaca tapi tidak ada berita baru",
   "Kompas (nasional)": "ok via Google News, 40 berita (feed asli: kosong: feed tidak terbaca)",
