@@ -1,5 +1,5 @@
 {
- "dibuat": "2026-11-12T10:53+07:00",
+ "dibuat": "2026-11-12T11:19+07:00",
  "tanggal": "12 November 2026",
  "bagian": {
   "sumbar": [
@@ -19,6 +19,11 @@
     "sumber": "PKS Sumbar"
    },
    {
+    "judul": "PT Semen Padang Biayai Pelatihan Satpam untuk 23 Pemuda Kurang Mampu di Pauh",
+    "link": "https://sumbarkita.id/pt-semen-padang-biayai-pelatihan-satpam-untuk-23-pemuda-kurang-mampu-di-pauh/",
+    "sumber": "Sumbarkita, Tribunpadang.com"
+   },
+   {
     "judul": "Dirut SIG Ungkap Potensi Ekonomi Limbah Pertanian dan Perkebunan Sumbar Capai Rp228 Miliar",
     "link": "https://sumbar.antaranews.com/berita/789079/dirut-sig-ungkap-potensi-ekonomi-limbah-pertanian-dan-perkebunan-sumbar-capai-rp228-miliar",
     "sumber": "Antara Sumbar, Sumbarkita"
@@ -27,14 +32,14 @@
     "judul": "Pemko Padang Raih Penghargaan Terbaik I Adminduk Regional Sumatera",
     "link": "https://sumbarkita.id/pemko-padang-raih-penghargaan-terbaik-i-adminduk-regional-sumatera/",
     "sumber": "Sumbarkita, Tribunpadang.com"
-   },
-   {
-    "judul": "Tiga eks pejabat Bea Cukai jalani sidang putusan kasus korupsi impor",
-    "link": "https://sumbar.antaranews.com/berita/789095/tiga-eks-pejabat-bea-cukai-jalani-sidang-putusan-kasus-korupsi-impor",
-    "sumber": "Antara Sumbar"
    }
   ],
   "nasional": [
+   {
+    "judul": "Jasa Marga-BSSN perkuat siber jaga keandalan layanan jalan tol",
+    "link": "https://www.antaranews.com/berita/5848563/jasa-marga-bssn-perkuat-siber-jaga-keandalan-layanan-jalan-tol",
+    "sumber": "Antara, Kompas.com"
+   },
    {
     "judul": "Pramono Tunggu Surat DPR soal Monorel Mangkrak di Senayan",
     "link": "https://news.detik.com/berita/d-8749398/pramono-tunggu-surat-dpr-soal-monorel-mangkrak-di-senayan",
@@ -43,11 +48,6 @@
    {
     "judul": "Rumah Jenderal Listyo Sigit Digeledah Terkait Penyadapan Presiden Prabowo",
     "link": "https://news.detik.com/berita/d-8749317/rumah-jenderal-listyo-sigit-digeledah-terkait-penyadapan-presiden-prabowo",
-    "sumber": "Detik, detikNews"
-   },
-   {
-    "judul": "Gibran Dikabarkan Mundur, PKB: HMP Jalan Terus, Siang Ini Diumumkan di Paripurna",
-    "link": "https://news.detik.com/berita/d-8749288/gibran-dikabarkan-mundur-pkb-hmp-jalan-terus-siang-ini-diumumkan-di-paripurna",
     "sumber": "Detik, detikNews"
    },
    {
@@ -78,9 +78,9 @@
     "sumber": "Detik"
    },
    {
-    "judul": "China paparkan praktik pembangunan hijau dalam COP31",
-    "link": "https://www.antaranews.com/berita/5848399/china-paparkan-praktik-pembangunan-hijau-dalam-cop31",
-    "sumber": "Antara"
+    "judul": "Kepala BNPPDT Tinjau Sebatik, Petakan Persoalan Perbatasan RI-Malaysia",
+    "link": "https://news.detik.com/berita/d-8749323/kepala-bnppdt-tinjau-sebatik-petakan-persoalan-perbatasan-ri-malaysia",
+    "sumber": "Detik"
    },
    {
     "judul": "Partai Arab Israel Siap Akui Hamas Teroris Demi Lengserkan Netanyahu",
@@ -103,7 +103,7 @@
   "Sipp Sumbar (sumbar)": "kosong: feed terbaca tapi tidak ada berita baru",
   "Babarito (sumbar)": "kosong: feed terbaca tapi tidak ada berita baru",
   "Antara Sumbar (sumbar)": "ok, 20 berita",
-  "Padang Ekspres (sumbar)": "ok via Google News, 22 berita (feed asli: gagal: HTTPError)",
+  "Padang Ekspres (sumbar)": "ok via Google News, 26 berita (feed asli: gagal: HTTPError)",
   "Tribun Padang (sumbar)": "ok via Google News, 40 berita (feed asli: gagal: HTTPError)",
   "Sumbarkita (sumbar)": "ok, 10 berita"
  }
