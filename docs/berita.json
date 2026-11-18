@@ -1,5 +1,5 @@
 {
- "dibuat": "2026-11-18T11:31+07:00",
+ "dibuat": "2026-11-18T11:43+07:00",
  "tanggal": "18 November 2026",
  "bagian": {
   "sumbar": [
@@ -12,6 +12,11 @@
     "judul": "PLN Raih Sertifikasi Great Place to Work, Masuk 100 Tempat Kerja Terbaik di Asia 2026",
     "link": "https://sumbarkita.id/pln-raih-sertifikasi-great-place-to-work-masuk-100-tempat-kerja-terbaik-di-asia-2026/",
     "sumber": "Antara Sumbar, Sumbarkita"
+   },
+   {
+    "judul": "Harga emas Galeri24-Antam-UBS di Pegadaian Rabu ini kompak turun",
+    "link": "https://sumbar.antaranews.com/berita/790291/harga-emas-galeri24-antam-ubs-di-pegadaian-rabu-ini-kompak-turun",
+    "sumber": "Antara Sumbar"
    },
    {
     "judul": "Pohon Aren Timpa Rumah di Padang, Korban Dua Orang",
@@ -27,11 +32,6 @@
     "judul": "Banjir Rendam Tiga Jorong di Dharmasraya, 125 KK Terdampak",
     "link": "https://sumbarkita.id/banjir-rendam-tiga-jorong-di-dharmasraya-125-kk-terdampak/",
     "sumber": "Sumbarkita"
-   },
-   {
-    "judul": "KPK respons pernyataan Raffi Ahmad soal pernah konsultasi pada 2024",
-    "link": "https://sumbar.antaranews.com/berita/790283/kpk-respons-pernyataan-raffi-ahmad-soal-pernah-konsultasi-pada-2024",
-    "sumber": "Antara Sumbar"
    }
   ],
   "nasional": [
@@ -41,27 +41,32 @@
     "sumber": "Antara, Kompas.com"
    },
    {
-    "judul": "Rupiah Masih Tertekan di Area All-Time Low",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPTWJmWFhPWlllLV9xQW8yUTlORERCUmtpUFQ3bTFhTzhLWVl3NVRUSWdIQzU2RXBxZkY3TFl2WFhVZFNUa2ZnN3d0RjRIck9mSkFMbjlNQ2J3UThpNEZiWnRHS1ZqS0FaelEwb09MX0RVSVNKUjQ0MC1rRkVLS0VmZHlvcXp0U2hKUDdoQ01fMElzd1lWRUVTVQ?oc=5",
-    "sumber": "Kompas.com, Stockbit Snips"
+    "judul": "Kasus Dugaan Makar, Bareskrim Geledah Rumah di Cipete Terkait Eko Hadi",
+    "link": "https://news.detik.com/berita/d-8757922/kasus-dugaan-makar-bareskrim-geledah-rumah-di-cipete-terkait-eko-hadi",
+    "sumber": "Detik, detikNews"
    },
    {
-    "judul": "Digelar Pekan Depan, Siapa yang Akan Pimpin Sidang Etik Listyo Sigit?",
-    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPWmxkRnV5QnBnYk16UUZLZ1EtY2pCS2lLOVhoVm5KaFlzTXFWT1NCb19sS1NUbUFnaktqcTlnLXZ2Wmk0UDBGUzhTa1h4ZHhFaExjUGZRa2hfVzJPUXh6Wm9HdTBkeTREY1pBMEU2ZGszSnRVUV9lZUViS180aFVyTHM5S1ZfOEh3aDdNWkpCWEtMY2VmZXpwUGV1MmtYNnh3SkJJc1NlQnhyY1nSAbABQVVfeXFMT1J6bjNaTExyb3VPVUFJU0xDYlJxMjJ5dlhlNDZUWWh0NFBUejRsRS1RYWstQnZVNEh3Nk00NVVtNFpaTk9rbzQxTDVJclpjTTNtZ3NEbGxDVERMdmtnOFNJS3RjSmFsUDZMbmt6SDR6OWd3d1VRam5QVENsbUxqRlBMOXM5Q0EwVkNuN0FjTVp5NTQ0c0tUS3VaWDRHeHR0eWs2ckJLcG9mV1Z6MmYtRHM?oc=5",
-    "sumber": "Tempo.co, detikNews"
+    "judul": "Ramai Disorot, Jubir ESDM Buka Suara soal Izin Pertambangan di Ujung Kulon",
+    "link": "https://news.detik.com/berita/d-8757522/ramai-disorot-jubir-esdm-buka-suara-soal-izin-pertambangan-di-ujung-kulon",
+    "sumber": "Detik, detikNews"
    },
    {
-    "judul": "Pemkot Medan prioritaskan pelayanan inklusif pada RSUD Pirngadi",
-    "link": "https://www.antaranews.com/berita/5861603/pemkot-medan-prioritaskan-pelayanan-inklusif-pada-rsud-pirngadi",
+    "judul": "DBL Academy Championship jadi pionir mini basketball berstandar FIBA",
+    "link": "https://www.antaranews.com/berita/5861623/dbl-academy-championship-jadi-pionir-mini-basketball-berstandar-fiba",
     "sumber": "Antara"
    },
    {
-    "judul": "Harga emas Galeri24-Antam-UBS di Pegadaian Rabu ini kompak turun",
-    "link": "https://www.antaranews.com/berita/5861599/harga-emas-galeri24-antam-ubs-di-pegadaian-rabu-ini-kompak-turun",
+    "judul": "Bapanas pastikan stok pangan aman, harga dijaga jelang Nataru",
+    "link": "https://www.antaranews.com/berita/5861619/bapanas-pastikan-stok-pangan-aman-harga-dijaga-jelang-nataru",
     "sumber": "Antara"
    }
   ],
   "internasional": [
+   {
+    "judul": "FPT Dinobatkan Sebagai Pemenang Anugerah “Microsoft Malaysia Partner of the Year 2026”",
+    "link": "https://www.antaranews.com/berita/5861615/fpt-dinobatkan-sebagai-pemenang-anugerah-microsoft-malaysia-partner-of-the-year-2026",
+    "sumber": "Antara"
+   },
    {
     "judul": "Mengapa China? Kekuatan Produktif Berkualitas Baru, Peluang Baru bagi Asia-Pasifik",
     "link": "https://www.antaranews.com/berita/5861567/mengapa-china-kekuatan-produktif-berkualitas-baru-peluang-baru-bagi-asia-pasifik",
@@ -70,11 +75,6 @@
    {
     "judul": "Rusia: Mayoritas anggota APEC dukung pencalonan keketuaan Rusia 2035",
     "link": "https://www.antaranews.com/berita/5861535/rusia-mayoritas-anggota-apec-dukung-pencalonan-keketuaan-rusia-2035",
-    "sumber": "Antara"
-   },
-   {
-    "judul": "Sejumlah layanan Apple di AS dilaporkan alami gangguan Selasa sore",
-    "link": "https://www.antaranews.com/berita/5861519/sejumlah-layanan-apple-di-as-dilaporkan-alami-gangguan-selasa-sore",
     "sumber": "Antara"
    },
    {
@@ -97,7 +97,7 @@
   "Kompas (nasional)": "ok via Google News, 40 berita (feed asli: kosong: feed tidak terbaca)",
   "Tribunnews (nasional)": "ok via Google News, 40 berita (feed asli: gagal: HTTPError)",
   "Tempo (nasional)": "ok via Google News, 40 berita (feed asli: gagal: HTTPError)",
-  "Detik (nasional)": "ok via Google News, 40 berita (feed asli: gagal: ConnectionError)",
+  "Detik (nasional)": "ok, 40 berita",
   "Penting Banget (nasional)": "kosong: feed terbaca tapi tidak ada berita baru",
   "PKS Sumbar (sumbar)": "kosong: feed terbaca tapi tidak ada berita baru",
   "Sipp Sumbar (sumbar)": "kosong: feed terbaca tapi tidak ada berita baru",
