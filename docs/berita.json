@@ -1,8 +1,13 @@
 {
- "dibuat": "2026-11-25T06:30+07:00",
+ "dibuat": "2026-11-25T12:01+07:00",
  "tanggal": "25 November 2026",
  "bagian": {
   "sumbar": [
+   {
+    "judul": "Ulyadi Resmi Dilantik Jadi Ketua Tim Pemenangan Pemilu PKS Sumbar",
+    "link": "https://sumbar.pks.id/2026/11/25/ulyadi-resmi-dilantik-jadi-ketua-tim-pemenangan-pemilu-pks-sumbar/",
+    "sumber": "PKS Sumbar"
+   },
    {
     "judul": "Dampingi Wamen PU Tinjau Lokasi Bencana, Wabup Candra Perjuangkan Percepatan Pemulihan Infrastruktur di Kabupaten Solok",
     "link": "https://sumbar.pks.id/2026/11/24/dampingi-wamen-pu-tinjau-lokasi-bencana-wabup-candra-perjuangkan-percepatan-pemulihan-infrastruktur-di-kabupaten-solok/",
@@ -14,96 +19,91 @@
     "sumber": "PKS Sumbar"
    },
    {
-    "judul": "Agenda Strategis Ekonomi PKS: Pangan Terjangkau, Rakyat Sejahtera",
-    "link": "https://sumbar.pks.id/2026/11/24/agenda-strategis-ekonomi-pks-pangan-terjangkau-rakyat-sejahtera/",
-    "sumber": "PKS Sumbar"
+    "judul": "Pemprov Sumbar Libatkan ASN Muda untuk Percepat Pengembangan Nagari Creative Hub",
+    "link": "https://sippsumbar.com/2026/11/25/pemprov-sumbar-libatkan-asn-muda-untuk-percepat-pengembangan-nagari-creative-hub/",
+    "sumber": "Sipp Sumbar, Tribunpadang.com"
+   },
+   {
+    "judul": "Dibuka Bupati Annisa, MTQ Nasional XIII Dharmasraya Diikuti 520 Peserta",
+    "link": "https://sumbarkita.id/dibuka-bupati-annisa-mtq-nasional-xiii-dharmasraya-diikuti-520-peserta/",
+    "sumber": "Sumbarkita, Tribunpadang.com"
    },
    {
     "judul": "SPKLU Hadir di Masjid Raya Tiku Agam, Pengguna Kendaraan Listrik Kini Punya Akses Baru",
     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQYVozMGdqbU94YmNacWp5R1ViV0RRcHJIT1BaQ29tOGo5ejE3RVJLcUtfeU53ZmNEay1aaTJ1WUJpeEpDellZUHJ1VHVMY2dFc1dUUHpnM0hJTXFXSDF6QmJIUFotaWYzTzRaUFAtcDgwZU1oY1VrNFdhX3BLUkZsN2pheDZuRUswT1E4c3ZwQlJJQlZIMVQ5aWNhWFlsLUtKOXBWanNtQkVWMG1LTU1CNjBucnZRWk1KX09vODRIQ18wLVNU?oc=5",
     "sumber": "Padang Ekspres, Tribunpadang.com"
-   },
-   {
-    "judul": "Shin Tae-yong sedikit terkejut Persija bisa menang 7-0 atas Sumsel",
-    "link": "https://sumbar.antaranews.com/berita/791575/shin-tae-yong-sedikit-terkejut-persija-bisa-menang-7-0-atas-sumsel",
-    "sumber": "Antara Sumbar"
-   },
-   {
-    "judul": "Hansi Flick tak risau Barcelona tanpa Lamine Yamal",
-    "link": "https://sumbar.antaranews.com/berita/791571/hansi-flick-tak-risau-barcelona-tanpa-lamine-yamal",
-    "sumber": "Antara Sumbar"
    }
   ],
   "nasional": [
    {
-    "judul": "KPK Panggil Istri dan Anak Eks Kepala BNPB Suharyanto",
-    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOOU5DRDQ1eGh1V3NhY1hOemtPaDhwbEpWR0RUVEN0ckJlWVFVSWR0WGotM252YnZ5cFBvVEkyWURwZEVjZlQ3dC1zWjF0Q01PdldCeVN2ZkJyeWxUd0NMZFdJRFdMWXNEc3h1V3pqZzlqNVA2X1hWTDJFNG9MNjBVc2hhTmlfMWM2b2lFaHd3TENQUQ?oc=5",
-    "sumber": "Tempo.co, Tribunnews.com"
+    "judul": "1 Sipil Tersangka Ujaran Kebencian Jadi Saksi Kasus Makar Listyo Sigit dkk",
+    "link": "https://news.detik.com/berita/d-8768681/1-sipil-tersangka-ujaran-kebencian-jadi-saksi-kasus-makar-listyo-sigit-dkk",
+    "sumber": "Detik, Kompas.com, detikNews"
    },
    {
-    "judul": "Lembaga konservasi salurkan 60 sarang lebah di Aceh Timur",
-    "link": "https://www.antaranews.com/berita/5876347/lembaga-konservasi-salurkan-60-sarang-lebah-di-aceh-timur",
-    "sumber": "Antara"
+    "judul": "Ngeri, Kedalaman Tambang Ilegal TKP Puluhan Orang Terjebak Capai 100 Meter",
+    "link": "https://news.detik.com/berita/d-8768907/ngeri-kedalaman-tambang-ilegal-tkp-puluhan-orang-terjebak-capai-100-meter",
+    "sumber": "Detik, detikNews"
    },
    {
-    "judul": "Operasi Polisi Menyisir Posko Makar Anak Buah Listyo Sigit",
-    "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOeUpId252eEU2RmU0YV9sdVRIbWdDaGduSWd3NDhQczZxYm1DZHNyWTlYMmFiWWt3MEo2Sl9ub2d6RTJxbkVTbm9jeVdBbWhoTmxZdGRjYWpxWTZoN1VFM1FQeVZuOTFDMFNhMUFMWUpNYTJLTGZWTVRPSWE3SXczX1pBQ09icTkyT3NlWk5RZE9PMnYwVEg3Xw?oc=5",
-    "sumber": "Tempo.co"
+    "judul": "Bupati Bogor Pecat Pegawai BUMD Tersangka Penyadapan Prabowo",
+    "link": "https://news.detik.com/berita/d-8768588/bupati-bogor-pecat-pegawai-bumd-tersangka-penyadapan-prabowo",
+    "sumber": "Detik, Kompas.com"
    },
    {
-    "judul": "Kemarin, Satgas Istitaah Kesehatan hingga peringatan Hari Anak Sedunia",
-    "link": "https://www.antaranews.com/berita/5876343/kemarin-satgas-istitaah-kesehatan-hingga-peringatan-hari-anak-sedunia",
-    "sumber": "Antara"
+    "judul": "Kata Mereka Usai Prabowo Usulkan Amran dan Sugiono Jadi Cawapres",
+    "link": "https://news.detik.com/berita/d-8768573/kata-mereka-usai-prabowo-usulkan-amran-dan-sugiono-jadi-cawapres",
+    "sumber": "Detik, detikNews"
    },
    {
-    "judul": "BMKG: Sebagian besar wilayah RI diguyur hujan ringan hari ini",
-    "link": "https://www.antaranews.com/berita/5876339/bmkg-sebagian-besar-wilayah-ri-diguyur-hujan-ringan-hari-ini",
+    "judul": "Sultan: DPD RI sulit pilih karena dua cawapres sama-sama layak",
+    "link": "https://www.antaranews.com/berita/5876843/sultan-dpd-ri-sulit-pilih-karena-dua-cawapres-sama-sama-layak",
     "sumber": "Antara"
    }
   ],
   "internasional": [
    {
-    "judul": "Luis Enrique pandang laga kontra AS Roma sebagai tantangan",
-    "link": "https://sumbar.antaranews.com/berita/791563/luis-enrique-pandang-laga-kontra-as-roma-sebagai-tantangan",
-    "sumber": "Antara, Antara Sumbar"
-   },
-   {
-    "judul": "Institut Konfusius pertemukan mahasiswa dengan 14 perusahaan China",
-    "link": "https://www.antaranews.com/berita/5876351/institut-konfusius-pertemukan-mahasiswa-dengan-14-perusahaan-china",
+    "judul": "Australia peringatkan AS-China makin berisiko terjerumus konflik",
+    "link": "https://www.antaranews.com/berita/5876755/australia-peringatkan-as-china-makin-berisiko-terjerumus-konflik",
     "sumber": "Antara"
    },
    {
-    "judul": "Rupiah Masih Dibayangi MSCI, Ini Prediksi Kurs Dollar AS Hari Ini",
-    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSzc0a3g2T1BpOEVtRUFvUEFYWmtIWXhlWkFsdG5OcjNuekt2ZXlickk4VFNmamQ0Uy1Kc3hINE1yaGlScURaLUxabG9LbllvOEZLOG1iWnhSZHFvUTNYUDJvS3UyTUV2QXZlVU9BellDMTN5TDVZbHhOSzBVT1Bna3o5QmVNR0xzNE5MaGUxeWdSMmVRLWtaSFNSY0wtRnJxT0hHYjY5bk5oM2xlWjZlTVdsUEMzdw?oc=5",
+    "judul": "Kurangi ketergantungan China, Prancis siapkan cadangan mineral kritis",
+    "link": "https://www.antaranews.com/berita/5876679/kurangi-ketergantungan-china-prancis-siapkan-cadangan-mineral-kritis",
+    "sumber": "Antara"
+   },
+   {
+    "judul": "Kena Olah Usulan 'Trumpcare', Trump Kini Puji Politikus Muslim El-Sayed",
+    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOZlRnWHp1MnNDTlpYazZ1dTlBNklVVElJU3h4bW5lUDZXQWwtWVpnclJhdlBBSU9OeVRRSVl3QVF1Z3luZHdLQ1VHTkhhbkVWa1ppZ3BfYkNhSC1YcjZGU21RSFFiREpNeVl6OWthZmJzcXR4RGI2d0FTUjFlOEZlcGFwOWRzd3p1alRkU3puMTBWdDhYRU54RFluTW1UU1FmcVhoWU9BdGpIeWRLNGpGbEdIWXBWd9IBuwFBVV95cUxQUFdsNFRUbW1MMm9iTDdneW9GOFViRldOZEFlV3BHcUtSUWpaMkJkWWpwcDZIOEhIZDROd1VvZ1BldUVRWmU1OUt6aDNwT1dJTDN1NU5MY040S0xtNGMweTlnT1E1ZWtVRVhQWWNocm53d1ZkWUhlcTBiOFphNWV2QzVfZG83Z1g5LUpqT0ZBNHFsOWdUdWpFaElKeE8xT05EX29JNVp6RHduV3Q1OTB3QjdQdVE0MGVqLXJR?oc=5",
+    "sumber": "detikNews"
+   },
+   {
+    "judul": "Rupiah pada Rabu pagi dibuka menguat jadi Rp18.227 per dolar AS",
+    "link": "https://sumbar.antaranews.com/berita/791607/rupiah-pada-rabu-pagi-dibuka-menguat-jadi-rp18227-per-dolar-as",
+    "sumber": "Antara Sumbar"
+   },
+   {
+    "judul": "Rupiah Dibuka Menguat Tipis, Investor Cermati Data Ekonomi AS",
+    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQRHRmSzFxTXVESzd6Ymt0Y21Ed1EyV3I0OHhXVnhFRUludnhtVFBaYjJDcXNwQXQ5Z1VzcGVXcGs0RE5BLWRRNUFSN01QbFNjOXo0Q3hKY3lrZk4zVWswQVFDd3ZtdUVwQVBfWDdCM0dRWUtnMWVOcTFRSWoyd1lWeDdSMUpFamM1amQ5U050Slp6V1h6YVFRa2tiTUhORmFDbUZkWVJ4by1Ua25BZHdiNA?oc=5",
     "sumber": "Kompas.com"
-   },
-   {
-    "judul": "Serangan Israel Tinggalkan Racun di Gaza: 99 Persen Wilayah Terindikasi Tercemar, Ini Temuan Oxfam",
-    "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQQW5rYVBiclFnQUd6YzdQN2lZdWpDM0lVOXhfZG5jTzNOcHhES05ZZ0JVY3I2dU1CUUJIQmdtbnBpblZZU2xrU2JxVkZIWWxwMlNtek5uZW5GLVZYRlhlLXFOTHhTb1dUcS1ER1ZJRnVnVjFSNWc2NWJKMU5wNkw0YVNma24xczN1dlJVRDE1UlQ1dWpHRzZITEsybU9ZSzJNVm44YVlSblBSd01ob0VpQzRhU3NQdjhNTGZGbEFQNjMyOVlQTHFReHhsdXhOZW1DTC15ZWRCVDNtaEttamc?oc=5",
-    "sumber": "Tribunnews.com"
-   },
-   {
-    "judul": "Pemukim Israel Obral Rumah Warga Palestina Rp320 M, Polemik Perebutan Properti di Yerusalem Disorot",
-    "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNSG1LUktzTXJZSE85NFI4LWg4dUcxcGk0NFV5WmZBX0tTTU0xREJRQ0VDNU1zNXRTeU9XanUtamJzcUNqSVZsSTZEQzFnSGRvWGg4dzdUZ21rQ0pydFZPREo0ek1LdURnSS1CUG1pQndSNk40ZmI0N1M3d3FzSGpNeXdUVTJ1bUk5Z0Q2NkF0T05aUTlGOHd4ZmMzQUJyUGdFWG45N3VBU0pBMlJhaURlaGdFOGJiSHVhOVRpVFVVdkFwdGpHUldVTHNiemgwcng4dUZBTHpMcWdxcnNIWjV6UA?oc=5",
-    "sumber": "Tribunnews.com"
    }
   ]
  },
  "status": {
-  "Google News (nasional)": "ok, 29 berita",
-  "Google News (internasional)": "ok, 16 berita",
+  "Google News (nasional)": "ok, 34 berita",
+  "Google News (internasional)": "ok, 17 berita",
   "Antara (nasional)": "ok, 40 berita",
   "Antara (internasional)": "kosong: feed terbaca tapi tidak ada berita baru",
   "Kompas (nasional)": "ok via Google News, 40 berita (feed asli: kosong: feed tidak terbaca)",
-  "Tribunnews (nasional)": "ok via Google News, 40 berita (feed asli: kosong: feed tidak terbaca)",
+  "Tribunnews (nasional)": "kosong: feed tidak terbaca; cadangan gagal: HTTPError",
   "Tempo (nasional)": "ok via Google News, 40 berita (feed asli: gagal: HTTPError)",
-  "Detik (nasional)": "gagal: ConnectionError; cadangan gagal: HTTPError",
-  "Penting Banget (nasional)": "ok, 2 berita",
-  "PKS Sumbar (sumbar)": "ok, 5 berita",
-  "Sipp Sumbar (sumbar)": "kosong: feed terbaca tapi tidak ada berita baru",
+  "Detik (nasional)": "ok, 40 berita",
+  "Penting Banget (nasional)": "ok, 6 berita",
+  "PKS Sumbar (sumbar)": "ok, 6 berita",
+  "Sipp Sumbar (sumbar)": "ok, 2 berita",
   "Babarito (sumbar)": "kosong: feed terbaca tapi tidak ada berita baru",
   "Antara Sumbar (sumbar)": "ok, 20 berita",
-  "Padang Ekspres (sumbar)": "ok via Google News, 40 berita (feed asli: gagal: HTTPError)",
+  "Padang Ekspres (sumbar)": "ok via Google News, 36 berita (feed asli: gagal: HTTPError)",
   "Tribun Padang (sumbar)": "ok via Google News, 40 berita (feed asli: kosong: feed tidak terbaca)",
   "Sumbarkita (sumbar)": "ok, 10 berita"
  }
